@@ -1,7 +1,7 @@
 name: first
-description: A new Flutter package project.
+description: awesome card to display your products.
 version: 0.0.1
-homepage:
+homepage: https://github.com/wildflu/am_card.git
 
 environment:
   sdk: '>=3.0.5 <4.0.0'
