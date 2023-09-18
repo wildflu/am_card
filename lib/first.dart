@@ -15,6 +15,7 @@ class AwsCard extends StatefulWidget {
   final double price;
   final double oldPrice;
   final String description;
+  
 
   @override
   State<AwsCard> createState() => _AwsCardState();
