@@ -11,21 +11,45 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+TODO: to use this package safely. you have to use it with the a GridView and put the crossAxisCount: 2, childAspectRatio :0.5;
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+TODO: display a cards, show the user the products
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+TODO: 
+    description: 'None For Now',
+    oldPrice: 35,
+    price: 30.24,
+    promution: 12,
+    image: Image.network( 'https://images.pexels.com/photos/2536965/pexels-photo-2536965.jpeg?auto=compress&cs=tinysrgb&w=600', fit: BoxFit.cover,height: double.infinity,),
+    size: 100,
+    text: 'some tolk about this product',
+    tails: const ['X','S'],
+    prodColorsDespo: [Colors.red, Colors.black, Colors.orange, Colors.grey],
+    onBuyClicked: (){
+        print('here do what u want when the user click the btn');
+    },
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
+TODO: AwsCard(
+    description: 'None For Now',
+    oldPrice: 35,
+    price: 30.24,
+    promution: 12,
+    image: Image.network( 'https://images.pexels.com/photos/2536965/pexels-photo-2536965.jpeg?auto=compress&cs=tinysrgb&w=600', fit: BoxFit.cover,height: double.infinity,),
+    size: 100,
+    text: 'some tolk about this product',
+    tails: const ['X','S'],
+    prodColorsDespo: [Colors.red, Colors.black, Colors.orange, Colors.grey],
+    onBuyClicked: (){
+        print('hi');
+    },
+    );
+        
 to `/example` folder.
 
 ```dart
@@ -34,6 +58,4 @@ const like = 'sample';
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+TODO: you can find more information on the example file ore github repo
